@@ -1,1 +1,0 @@
-window.revealOnScroll=function(){const items=document.querySelectorAll('.reveal');const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}})},{threshold:.14});items.forEach(item=>observer.observe(item))};
